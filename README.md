@@ -1,6 +1,8 @@
 # OEFENING ELEKTRISCHE TOESTELLEN  
 ### oefening op entiteitsklassen en serviceklassen  
 
+![alt text](/assets/demo.gif)
+
 We houden de voorraad van een winkel die elektro verkoopt bij.  
 De winkel verkoopt verschillende soorten toestellen : Vaatwas, Oven, Wasmachine, Droogkast, Koelkast, Diepvries.  
 Deze soorten dien je in de vorm van een enumaratie (Toestelsoorten) bij te houden (dus geen afzonderlijke entiteitsklasse).  Je kan deze enum best aanmaken in hetzelfde bestand waar je de klasse Toestel zal maken (zie hieronder) (onder "namespace", boven "class").  
