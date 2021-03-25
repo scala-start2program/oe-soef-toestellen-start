@@ -39,10 +39,12 @@ Maak eerst je programma zonder aan de filter te denken, en implementeer deze wan
   
 Er zijn 2 comboboxen op je scherm : cmbFilter en cmbSoort.  
   * CmbSoort dient gevuld te worden met de enumeratie waarden Toestelsoorten.  Je kan dit doen door de versillende enum waarden één voor één toe te voegen aan je combobox maar je kan dit ook doen met een iteratie :   
+    ```
             foreach (ToestelSoort toestelsoort in Enum.GetValues(typeof(ToestelSoort)))
             {
                 cmbSoort.Items.Add(toestelsoort);
             }
+    ```
   * Bij cmbFilter kan je iets gelijkaardigs doen, maar je moet als eerste waarde in de combobox de tekst "<alle toestellen>" invoegen.  
     Het is echter geen probleem om de verschillende items van een combobox te vullen met verschillende types (dus hier tekst en enumeratietypes)
 
