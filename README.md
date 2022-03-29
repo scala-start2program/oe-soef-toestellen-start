@@ -28,7 +28,8 @@ De klasse overschrijft de ToString() methode (merk en serie).
 De service klasse heeft 3 eigenschappen :   
   * een List van toestellen  
   * het totaal aantal toestellen in de winkel  
-  * de totale verkoopswaarde van alle aanwezige toestellen  
+  * de totale verkoopswaarde van alle aanwezige toestellen   
+
 De klasse heeft 1 argumentloze constructor waarin je voor wat testgegevens (seeding) zorgt.  
 De klasse heeft 3 publieke methoden :  
   * Een methode om een object toe te voegen aan de List  
